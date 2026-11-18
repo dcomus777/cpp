@@ -1,0 +1,3 @@
+/Users/dcomus/ITMO/C++/cmake-build/CMakeFiles/HelloWorld.dir
+/Users/dcomus/ITMO/C++/cmake-build/CMakeFiles/edit_cache.dir
+/Users/dcomus/ITMO/C++/cmake-build/CMakeFiles/rebuild_cache.dir
