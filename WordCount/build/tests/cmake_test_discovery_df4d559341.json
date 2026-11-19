@@ -1,0 +1,198 @@
+{
+  "tests": 31,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "FullSuite\/WordCountTest",
+      "tests": 31,
+      "testsuite": [
+        {
+          "name": "MatchesExpected\/01_DefaultSimple",
+          "value_param": "01_DefaultSimple",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/02_EmptyFile",
+          "value_param": "02_EmptyFile",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/03_NoTrailingNewline",
+          "value_param": "03_NoTrailingNewline",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/04_OnlyNewlines",
+          "value_param": "04_OnlyNewlines",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/05_BlankLinesInside",
+          "value_param": "05_BlankLinesInside",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/06_RepeatedSeparators",
+          "value_param": "06_RepeatedSeparators",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/07_WhitespaceOnly",
+          "value_param": "07_WhitespaceOnly",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/08_AllWhitespaceKinds",
+          "value_param": "08_AllWhitespaceKinds",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/09_OnlyLines",
+          "value_param": "09_OnlyLines",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/10_OnlyWords",
+          "value_param": "10_OnlyWords",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/11_OnlyBytes",
+          "value_param": "11_OnlyBytes",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/12_OnlyAlnum",
+          "value_param": "12_OnlyAlnum",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/13_LongOptions",
+          "value_param": "13_LongOptions",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/14_GroupedShortOptions",
+          "value_param": "14_GroupedShortOptions",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/15_OptionOrderIgnored",
+          "value_param": "15_OptionOrderIgnored",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/16_AllOptions",
+          "value_param": "16_AllOptions",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/17_EmptyFileAllOptions",
+          "value_param": "17_EmptyFileAllOptions",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/18_WordsOnWhitespaceOnly",
+          "value_param": "18_WordsOnWhitespaceOnly",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/19_LinesWithoutTrailingNewline",
+          "value_param": "19_LinesWithoutTrailingNewline",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/20_CrlfLineEndings",
+          "value_param": "20_CrlfLineEndings",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/21_DuplicatedOptions",
+          "value_param": "21_DuplicatedOptions",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/22_WordAcrossBufferBoundary",
+          "value_param": "22_WordAcrossBufferBoundary",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/23_ManyLines",
+          "value_param": "23_ManyLines",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/24_MixedCornerCases",
+          "value_param": "24_MixedCornerCases",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/25_NulBytes",
+          "value_param": "25_NulBytes",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/26_CarriageReturnOnly",
+          "value_param": "26_CarriageReturnOnly",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/27_TwoFiles",
+          "value_param": "27_TwoFiles",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/28_OutputOrderFollowsArguments",
+          "value_param": "28_OutputOrderFollowsArguments",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/29_OptionsAfterFileNames",
+          "value_param": "29_OptionsAfterFileNames",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/30_ThreeFilesAllOptions",
+          "value_param": "30_ThreeFilesAllOptions",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        },
+        {
+          "name": "MatchesExpected\/31_PreserveWeirdPaths",
+          "value_param": "31_PreserveWeirdPaths",
+          "file": "\/Users\/dcomus\/ITMO\/OP\/WordCount\/tests\/test_generator.cpp",
+          "line": 183
+        }
+      ]
+    }
+  ]
+}

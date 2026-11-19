@@ -1,0 +1,5 @@
+if(EXISTS "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests_e3b0c442_tests.cmake")
+  include("/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests_e3b0c442_tests.cmake")
+else()
+  add_test(WordCount_tests_NOT_BUILT WordCount_tests_NOT_BUILT)
+endif()

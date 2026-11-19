@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/dcomus/ITMO/OP/WordCount/build",
+  "command": "/usr/bin/c++   -std=gnu++23 -arch arm64 -o CMakeFiles/WordCount.dir/main.cpp.o -c /Users/dcomus/ITMO/OP/WordCount/main.cpp",
+  "file": "/Users/dcomus/ITMO/OP/WordCount/main.cpp",
+  "output": "CMakeFiles/WordCount.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/dcomus/ITMO/OP/WordCount/build/tests",
+  "command": "/usr/bin/c++ -DTEST_DATA_DIR=\\\"/Users/dcomus/ITMO/OP/WordCount/tests/testdata\\\" -DWORD_COUNT_EXECUTABLE=\\\"/Users/dcomus/ITMO/OP/WordCount/build/WordCount\\\" -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/include -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest -std=gnu++23 -arch arm64 -o CMakeFiles/WordCount_tests.dir/test_generator.cpp.o -c /Users/dcomus/ITMO/OP/WordCount/tests/test_generator.cpp",
+  "file": "/Users/dcomus/ITMO/OP/WordCount/tests/test_generator.cpp",
+  "output": "tests/CMakeFiles/WordCount_tests.dir/test_generator.cpp.o"
+},
+{
+  "directory": "/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googlemock/include -I/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googlemock -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/include -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest -std=c++23 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googlemock/include -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googlemock -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/include -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest -std=c++23 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/include -I/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest -std=c++23 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/include -isystem /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest -std=c++23 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]
