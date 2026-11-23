@@ -1,0 +1,5 @@
+if(EXISTS "/Users/dcomus/ITMO/OP/Int2026_t/build/tests/labwork2_tests_6c5e129d_tests.cmake")
+  include("/Users/dcomus/ITMO/OP/Int2026_t/build/tests/labwork2_tests_6c5e129d_tests.cmake")
+else()
+  add_test(labwork2_tests_NOT_BUILT labwork2_tests_NOT_BUILT)
+endif()

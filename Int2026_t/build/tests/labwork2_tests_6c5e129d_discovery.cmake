@@ -1,0 +1,20 @@
+include("/opt/homebrew/share/cmake/Modules/GoogleTestAddTests.cmake")
+gtest_discover_tests_impl(
+  TEST_TARGET [==[labwork2_tests]==]
+  TEST_EXECUTABLE [==[/Users/dcomus/ITMO/OP/Int2026_t/build/tests/labwork2_tests]==]
+  TEST_EXECUTOR [==[]==]
+  TEST_WORKING_DIR [==[/Users/dcomus/ITMO/OP/Int2026_t/build/tests]==]
+  TEST_EXTRA_ARGS [==[]==]
+  TEST_PROPERTIES [==[]==]
+  TEST_PREFIX [==[]==]
+  TEST_SUFFIX [==[]==]
+  TEST_FILTER [==[]==]
+  NO_PRETTY_TYPES [==[FALSE]==]
+  NO_PRETTY_VALUES [==[TRUE]==]
+  TEST_LIST [==[labwork2_tests_TESTS]==]
+  CTEST_FILE [==[/Users/dcomus/ITMO/OP/Int2026_t/build/tests/labwork2_tests_6c5e129d_tests.cmake]==]
+  TEST_DISCOVERY_TIMEOUT [==[5]==]
+  TEST_DISCOVERY_EXTRA_ARGS [==[]==]
+  TEST_XML_OUTPUT_DIR [==[]==]
+  TEST_JSON_OUTPUT_DIR [==[/Users/dcomus/ITMO/OP/Int2026_t/build/tests]==]
+)

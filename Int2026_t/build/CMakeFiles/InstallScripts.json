@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/dcomus/ITMO/OP/Int2026_t/build/cmake_install.cmake",
+		"/Users/dcomus/ITMO/OP/Int2026_t/build/lib/cmake_install.cmake",
+		"/Users/dcomus/ITMO/OP/Int2026_t/build/bin/cmake_install.cmake",
+		"/Users/dcomus/ITMO/OP/Int2026_t/build/tests/cmake_install.cmake",
+		"/Users/dcomus/ITMO/OP/Int2026_t/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/dcomus/ITMO/OP/Int2026_t/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/dcomus/ITMO/OP/Int2026_t/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

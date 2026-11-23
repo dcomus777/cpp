@@ -1,10 +1,10 @@
-Start testing: Nov 20 01:44 MSK
+Start testing: Nov 23 14:26 MSK
 ----------------------------------------------------------
 1/31 Testing: FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple
 1/31 Test: FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -13,25 +13,25 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/01_DefaultSim
 [----------] Global test environment set-up.
 [----------] 1 test from FullSuite/WordCountTest
 [ RUN      ] FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple
-[       OK ] FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple (336 ms)
-[----------] 1 test from FullSuite/WordCountTest (336 ms total)
+[       OK ] FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple (3324 ms)
+[----------] 1 test from FullSuite/WordCountTest (3324 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (336 ms total)
+[==========] 1 test from 1 test suite ran. (3324 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.34 sec
+Test time =   3.36 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple" end time: Nov 20 01:44 MSK
-"FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple" time elapsed: 00:00:00
+"FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple" end time: Nov 23 14:26 MSK
+"FullSuite/WordCountTest.MatchesExpected/01_DefaultSimple" time elapsed: 00:00:03
 ----------------------------------------------------------
 
 2/31 Testing: FullSuite/WordCountTest.MatchesExpected/02_EmptyFile
 2/31 Test: FullSuite/WordCountTest.MatchesExpected/02_EmptyFile
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/02_EmptyFile" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/02_EmptyFile" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/02_EmptyFile" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -40,7 +40,61 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/02_EmptyFile
 [----------] Global test environment set-up.
 [----------] 1 test from FullSuite/WordCountTest
 [ RUN      ] FullSuite/WordCountTest.MatchesExpected/02_EmptyFile
-[       OK ] FullSuite/WordCountTest.MatchesExpected/02_EmptyFile (7 ms)
+[       OK ] FullSuite/WordCountTest.MatchesExpected/02_EmptyFile (8 ms)
+[----------] 1 test from FullSuite/WordCountTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FullSuite/WordCountTest.MatchesExpected/02_EmptyFile" end time: Nov 23 14:26 MSK
+"FullSuite/WordCountTest.MatchesExpected/02_EmptyFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/31 Testing: FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline
+3/31 Test: FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline
+Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline" "--gtest_also_run_disabled_tests"
+Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
+"FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline" start time: Nov 23 14:26 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FullSuite/WordCountTest
+[ RUN      ] FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline
+[       OK ] FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline (9 ms)
+[----------] 1 test from FullSuite/WordCountTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline" end time: Nov 23 14:26 MSK
+"FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/31 Testing: FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines
+4/31 Test: FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines
+Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines" "--gtest_also_run_disabled_tests"
+Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
+"FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines" start time: Nov 23 14:26 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FullSuite/WordCountTest
+[ RUN      ] FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines
+[       OK ] FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines (7 ms)
 [----------] 1 test from FullSuite/WordCountTest (7 ms total)
 
 [----------] Global test environment tear-down
@@ -50,24 +104,51 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/02_EmptyFile
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/02_EmptyFile" end time: Nov 20 01:44 MSK
-"FullSuite/WordCountTest.MatchesExpected/02_EmptyFile" time elapsed: 00:00:00
+"FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines" end time: Nov 23 14:26 MSK
+"FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/31 Testing: FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline
-3/31 Test: FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline
-Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline" "--gtest_also_run_disabled_tests"
+5/31 Testing: FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside
+5/31 Test: FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside
+Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline
+Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from FullSuite/WordCountTest
-[ RUN      ] FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline
-[       OK ] FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline (7 ms)
+[ RUN      ] FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside
+[       OK ] FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside (8 ms)
+[----------] 1 test from FullSuite/WordCountTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside" end time: Nov 23 14:26 MSK
+"FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/31 Testing: FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators
+6/31 Test: FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators
+Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators" "--gtest_also_run_disabled_tests"
+Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
+"FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators" start time: Nov 23 14:26 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FullSuite/WordCountTest
+[ RUN      ] FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators
+[       OK ] FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators (7 ms)
 [----------] 1 test from FullSuite/WordCountTest (7 ms total)
 
 [----------] Global test environment tear-down
@@ -77,88 +158,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/03_NoTrailing
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline" end time: Nov 20 01:44 MSK
-"FullSuite/WordCountTest.MatchesExpected/03_NoTrailingNewline" time elapsed: 00:00:00
-----------------------------------------------------------
-
-4/31 Testing: FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines
-4/31 Test: FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines
-Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines" "--gtest_also_run_disabled_tests"
-Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines" start time: Nov 20 01:44 MSK
-Output:
-----------------------------------------------------------
-Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from FullSuite/WordCountTest
-[ RUN      ] FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines
-[       OK ] FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines (6 ms)
-[----------] 1 test from FullSuite/WordCountTest (6 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (6 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines" end time: Nov 20 01:44 MSK
-"FullSuite/WordCountTest.MatchesExpected/04_OnlyNewlines" time elapsed: 00:00:00
-----------------------------------------------------------
-
-5/31 Testing: FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside
-5/31 Test: FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside
-Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside" "--gtest_also_run_disabled_tests"
-Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside" start time: Nov 20 01:44 MSK
-Output:
-----------------------------------------------------------
-Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from FullSuite/WordCountTest
-[ RUN      ] FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside
-[       OK ] FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside (6 ms)
-[----------] 1 test from FullSuite/WordCountTest (6 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (6 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside" end time: Nov 20 01:44 MSK
-"FullSuite/WordCountTest.MatchesExpected/05_BlankLinesInside" time elapsed: 00:00:00
-----------------------------------------------------------
-
-6/31 Testing: FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators
-6/31 Test: FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators
-Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators" "--gtest_also_run_disabled_tests"
-Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators" start time: Nov 20 01:44 MSK
-Output:
-----------------------------------------------------------
-Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from FullSuite/WordCountTest
-[ RUN      ] FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators
-[       OK ] FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators (6 ms)
-[----------] 1 test from FullSuite/WordCountTest (6 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (6 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/06_RepeatedSeparators" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/31 Test: FullSuite/WordCountTest.MatchesExpected/07_WhitespaceOnly
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/07_WhitespaceOnly" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/07_WhitespaceOnly" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/07_WhitespaceOnly" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,7 +185,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/07_Whitespace
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/07_WhitespaceOnly" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/07_WhitespaceOnly" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/07_WhitespaceOnly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/31 Test: FullSuite/WordCountTest.MatchesExpected/08_AllWhitespaceKinds
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/08_AllWhitespaceKinds" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/08_AllWhitespaceKinds" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/08_AllWhitespaceKinds" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -212,7 +212,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/08_AllWhitesp
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/08_AllWhitespaceKinds" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/08_AllWhitespaceKinds" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/08_AllWhitespaceKinds" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/31 Test: FullSuite/WordCountTest.MatchesExpected/09_OnlyLines
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/09_OnlyLines" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/09_OnlyLines" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/09_OnlyLines" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -239,7 +239,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/09_OnlyLines
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/09_OnlyLines" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/09_OnlyLines" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/09_OnlyLines" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/31 Test: FullSuite/WordCountTest.MatchesExpected/10_OnlyWords
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/10_OnlyWords" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/10_OnlyWords" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/10_OnlyWords" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -266,7 +266,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/10_OnlyWords
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/10_OnlyWords" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/10_OnlyWords" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/10_OnlyWords" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/31 Test: FullSuite/WordCountTest.MatchesExpected/11_OnlyBytes
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/11_OnlyBytes" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/11_OnlyBytes" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/11_OnlyBytes" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -293,7 +293,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/11_OnlyBytes
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/11_OnlyBytes" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/11_OnlyBytes" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/11_OnlyBytes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -301,7 +301,7 @@ Test Passed.
 12/31 Test: FullSuite/WordCountTest.MatchesExpected/12_OnlyAlnum
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/12_OnlyAlnum" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/12_OnlyAlnum" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/12_OnlyAlnum" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -320,7 +320,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/12_OnlyAlnum
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/12_OnlyAlnum" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/12_OnlyAlnum" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/12_OnlyAlnum" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -328,7 +328,7 @@ Test Passed.
 13/31 Test: FullSuite/WordCountTest.MatchesExpected/13_LongOptions
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/13_LongOptions" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/13_LongOptions" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/13_LongOptions" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -347,7 +347,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/13_LongOption
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/13_LongOptions" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/13_LongOptions" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/13_LongOptions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -355,7 +355,7 @@ Test Passed.
 14/31 Test: FullSuite/WordCountTest.MatchesExpected/14_GroupedShortOptions
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/14_GroupedShortOptions" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/14_GroupedShortOptions" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/14_GroupedShortOptions" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -374,7 +374,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/14_GroupedSho
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/14_GroupedShortOptions" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/14_GroupedShortOptions" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/14_GroupedShortOptions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -382,7 +382,7 @@ Test Passed.
 15/31 Test: FullSuite/WordCountTest.MatchesExpected/15_OptionOrderIgnored
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/15_OptionOrderIgnored" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/15_OptionOrderIgnored" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/15_OptionOrderIgnored" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -401,7 +401,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/15_OptionOrde
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/15_OptionOrderIgnored" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/15_OptionOrderIgnored" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/15_OptionOrderIgnored" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -409,7 +409,7 @@ Test Passed.
 16/31 Test: FullSuite/WordCountTest.MatchesExpected/16_AllOptions
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/16_AllOptions" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/16_AllOptions" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/16_AllOptions" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -428,7 +428,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/16_AllOptions
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/16_AllOptions" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/16_AllOptions" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/16_AllOptions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -436,7 +436,7 @@ Test Passed.
 17/31 Test: FullSuite/WordCountTest.MatchesExpected/17_EmptyFileAllOptions
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/17_EmptyFileAllOptions" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/17_EmptyFileAllOptions" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/17_EmptyFileAllOptions" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -455,7 +455,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/17_EmptyFileA
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/17_EmptyFileAllOptions" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/17_EmptyFileAllOptions" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/17_EmptyFileAllOptions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -463,7 +463,7 @@ Test Passed.
 18/31 Test: FullSuite/WordCountTest.MatchesExpected/18_WordsOnWhitespaceOnly
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/18_WordsOnWhitespaceOnly" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/18_WordsOnWhitespaceOnly" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/18_WordsOnWhitespaceOnly" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -482,7 +482,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/18_WordsOnWhi
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/18_WordsOnWhitespaceOnly" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/18_WordsOnWhitespaceOnly" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/18_WordsOnWhitespaceOnly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -490,7 +490,7 @@ Test Passed.
 19/31 Test: FullSuite/WordCountTest.MatchesExpected/19_LinesWithoutTrailingNewline
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/19_LinesWithoutTrailingNewline" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/19_LinesWithoutTrailingNewline" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/19_LinesWithoutTrailingNewline" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -509,7 +509,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/19_LinesWitho
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/19_LinesWithoutTrailingNewline" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/19_LinesWithoutTrailingNewline" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/19_LinesWithoutTrailingNewline" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -517,7 +517,7 @@ Test Passed.
 20/31 Test: FullSuite/WordCountTest.MatchesExpected/20_CrlfLineEndings
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/20_CrlfLineEndings" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/20_CrlfLineEndings" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/20_CrlfLineEndings" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -536,7 +536,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/20_CrlfLineEn
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/20_CrlfLineEndings" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/20_CrlfLineEndings" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/20_CrlfLineEndings" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -544,7 +544,7 @@ Test Passed.
 21/31 Test: FullSuite/WordCountTest.MatchesExpected/21_DuplicatedOptions
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/21_DuplicatedOptions" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/21_DuplicatedOptions" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/21_DuplicatedOptions" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -563,7 +563,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/21_Duplicated
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/21_DuplicatedOptions" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/21_DuplicatedOptions" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/21_DuplicatedOptions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -571,7 +571,7 @@ Test Passed.
 22/31 Test: FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -580,17 +580,17 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/22_WordAcross
 [----------] Global test environment set-up.
 [----------] 1 test from FullSuite/WordCountTest
 [ RUN      ] FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary
-[       OK ] FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary (14 ms)
-[----------] 1 test from FullSuite/WordCountTest (14 ms total)
+[       OK ] FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary (6 ms)
+[----------] 1 test from FullSuite/WordCountTest (6 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (14 ms total)
+[==========] 1 test from 1 test suite ran. (6 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/22_WordAcrossBufferBoundary" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -598,7 +598,7 @@ Test Passed.
 23/31 Test: FullSuite/WordCountTest.MatchesExpected/23_ManyLines
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/23_ManyLines" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/23_ManyLines" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/23_ManyLines" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -617,7 +617,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/23_ManyLines
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/23_ManyLines" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/23_ManyLines" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/23_ManyLines" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -625,7 +625,7 @@ Test Passed.
 24/31 Test: FullSuite/WordCountTest.MatchesExpected/24_MixedCornerCases
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/24_MixedCornerCases" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/24_MixedCornerCases" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/24_MixedCornerCases" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -644,7 +644,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/24_MixedCorne
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/24_MixedCornerCases" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/24_MixedCornerCases" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/24_MixedCornerCases" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -652,7 +652,7 @@ Test Passed.
 25/31 Test: FullSuite/WordCountTest.MatchesExpected/25_NulBytes
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/25_NulBytes" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/25_NulBytes" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/25_NulBytes" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -671,7 +671,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/25_NulBytes
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/25_NulBytes" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/25_NulBytes" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/25_NulBytes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -679,7 +679,7 @@ Test Passed.
 26/31 Test: FullSuite/WordCountTest.MatchesExpected/26_CarriageReturnOnly
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/26_CarriageReturnOnly" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/26_CarriageReturnOnly" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/26_CarriageReturnOnly" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -698,7 +698,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/26_CarriageRe
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/26_CarriageReturnOnly" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/26_CarriageReturnOnly" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/26_CarriageReturnOnly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -706,7 +706,7 @@ Test Passed.
 27/31 Test: FullSuite/WordCountTest.MatchesExpected/27_TwoFiles
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/27_TwoFiles" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/27_TwoFiles" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/27_TwoFiles" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -725,7 +725,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/27_TwoFiles
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/27_TwoFiles" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/27_TwoFiles" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/27_TwoFiles" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -733,7 +733,7 @@ Test Passed.
 28/31 Test: FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -742,17 +742,17 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/28_OutputOrde
 [----------] Global test environment set-up.
 [----------] 1 test from FullSuite/WordCountTest
 [ RUN      ] FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments
-[       OK ] FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments (7 ms)
-[----------] 1 test from FullSuite/WordCountTest (7 ms total)
+[       OK ] FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments (6 ms)
+[----------] 1 test from FullSuite/WordCountTest (6 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (7 ms total)
+[==========] 1 test from 1 test suite ran. (6 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/28_OutputOrderFollowsArguments" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -760,7 +760,7 @@ Test Passed.
 29/31 Test: FullSuite/WordCountTest.MatchesExpected/29_OptionsAfterFileNames
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/29_OptionsAfterFileNames" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/29_OptionsAfterFileNames" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/29_OptionsAfterFileNames" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -779,7 +779,7 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/29_OptionsAft
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/29_OptionsAfterFileNames" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/29_OptionsAfterFileNames" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/29_OptionsAfterFileNames" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -787,7 +787,7 @@ Test Passed.
 30/31 Test: FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -796,17 +796,17 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/30_ThreeFiles
 [----------] Global test environment set-up.
 [----------] 1 test from FullSuite/WordCountTest
 [ RUN      ] FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions
-[       OK ] FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions (6 ms)
-[----------] 1 test from FullSuite/WordCountTest (6 ms total)
+[       OK ] FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions (7 ms)
+[----------] 1 test from FullSuite/WordCountTest (7 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (6 ms total)
+[==========] 1 test from 1 test suite ran. (7 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/30_ThreeFilesAllOptions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -814,7 +814,7 @@ Test Passed.
 31/31 Test: FullSuite/WordCountTest.MatchesExpected/31_PreserveWeirdPaths
 Command: "/Users/dcomus/ITMO/OP/WordCount/build/tests/WordCount_tests" "--gtest_filter=FullSuite/WordCountTest.MatchesExpected/31_PreserveWeirdPaths" "--gtest_also_run_disabled_tests"
 Directory: /Users/dcomus/ITMO/OP/WordCount/build/tests
-"FullSuite/WordCountTest.MatchesExpected/31_PreserveWeirdPaths" start time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/31_PreserveWeirdPaths" start time: Nov 23 14:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/dcomus/ITMO/OP/WordCount/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -833,8 +833,8 @@ Note: Google Test filter = FullSuite/WordCountTest.MatchesExpected/31_PreserveWe
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FullSuite/WordCountTest.MatchesExpected/31_PreserveWeirdPaths" end time: Nov 20 01:44 MSK
+"FullSuite/WordCountTest.MatchesExpected/31_PreserveWeirdPaths" end time: Nov 23 14:26 MSK
 "FullSuite/WordCountTest.MatchesExpected/31_PreserveWeirdPaths" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 20 01:44 MSK
+End testing: Nov 23 14:26 MSK
